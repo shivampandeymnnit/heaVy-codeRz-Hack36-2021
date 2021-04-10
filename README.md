@@ -23,10 +23,10 @@
 
 Team Name: OP Squad
 
-* [Swapnil Nayak](https://github.com/descifrado)
-* [Shouvik Khanra](https://github.com/iosdev474)
-* [Nitin Shukla](https://github.com/shashwat1998)
-* [Piyush Kashyap](https://github.com/ManasUniyal)
+* [Swapnil Nayak](https://github.com/swapnilnyk10)
+* [Shouvik Khanra](https://github.com/Shouvik11-b)
+* [Nitin Shukla](hhttps://github.com/nitin1207)
+* [Piyush Kashyap](https://github.com/Piyush2208)
 
 
 ### Made at:
