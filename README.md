@@ -16,7 +16,7 @@
 ## Technology Stack:
   1) HTML
   2) Cascading Style Sheet (CSS)
-  3) JavaScirpt
+  3) JavaScript
   
 
 ## Contributors:
