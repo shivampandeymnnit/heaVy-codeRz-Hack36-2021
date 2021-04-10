@@ -1,0 +1,64 @@
+@keyframes slideshow {
+    0%{background-image: url(Images/BG3.jpeg);}
+    10%{background-image: url(Images/BG4.jpeg);}
+    20%{background-image: url(Images/BG5.jpeg);}
+    30%{background-image: url(Images/BG6.jpeg);}
+    40%{background-image: url(Images/BG7.jpeg);}
+    50%{background-image: url(Images/BG8.jpeg);}
+    60%{background-image: url(Images/BG9.jpeg);}
+    70%{background-image: url(Images/BG10.jpeg);}
+    80%{background-image: url(Images/BG11.jpeg);}
+    90%{background-image: url(Images/BG12.jpeg);}
+    100%{background-image: url(Images/Bg13.jpeg);}
+}
+.slideshow{
+    position: relative;
+    top: 0px;
+    margin-top: 0cm;
+    width: 1450px;
+    height: 600px;
+    animation-name: slideshow;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+}
+
+nav a{
+    font-size: 6mm;
+    font-family:'Londrina Solid', cursive ;
+    color: black;
+    float: left;
+    text-align: center;
+    display: block;
+    padding-bottom: 0px;
+    text-align: center;
+    padding: 4mm;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: aliceblue;
+}
+a img{
+    width: 200px;
+    position: absolute;
+    left: 5px;
+    top: 60px;
+}
+a img:hover{
+    animation-name: swap;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+   }
+p{
+    font-family: 'Pacifico', cursive;
+    font-size: 7mm;
+}
+h2{
+    text-align: center;
+    font-size: 1.5cm;
+    text-decoration: underline;
+    font-family: 'Londrina Solid', cursive;
+}
+h4{
+    font-size: 1cm;
+    font-family: 'Londrina Solid', cursive;
+}

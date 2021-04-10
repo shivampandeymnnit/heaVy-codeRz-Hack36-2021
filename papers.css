@@ -1,0 +1,38 @@
+@keyframes swap {
+    from{width: 4cm;height: 6cm;}
+    to{width: 4.5cm;height: 6.5cm;}
+}
+body{
+    background-image: url(Images/Coding-body-image-.jpg);
+}
+    nav a{
+        color: aliceblue;
+        float: left;
+        text-align: center;
+        display: block;
+        padding-bottom: 0px;
+        text-align: center;
+        padding: 4mm;
+        text-decoration: none;
+    }
+    nav a:hover{
+        background-color: rgba(240, 248, 255, 0.212);
+    }
+    section a{
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    }
+    section img{
+        width: 4cm;
+        height: 6cm;
+        margin-top: 0px;
+        margin-left: 2cm;
+        margin-right: 2cm;
+    }
+    section img:hover{
+        animation-name: swap;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+       }

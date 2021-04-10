@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heavycoders</title>
+    <link rel="stylesheet" href="cpi.css">
+</head>
+<body class="color">
+
+    <h1>CALCULATION of CPI</h1>
+    <div class="mod">
+        CPI stands for cumulative performance index. This grading system is used by MNNIT.
+        It is measure of the candidate's overall performance in all the subjects studied according 
+         to the number of credits each discipline entails.
+         <img src="Images/2021-04-10.png" alt="grades">
+
+    </div>
+    <div class="containerA">
+<div class="containerB">
+    <h1>FOR 1st sem</h1>
+    <h2>OVERVIEW</h2>
+    <div>In this semester the subjects accounted are *chemistry(with 4 credits),*physics(with 4 credits), *computer(with 3 credits)
+      ,*communication skills(with 2 credits),* engineering drawing (with 3 credits),*maths (with 4 credits).   
+    </div>
+    <h2>enter your marks(within 0 to 100)</h2>
+    <form >
+        <ul >
+            <li>
+                <label for="chemistry" class="containerC">chemistry:</label>
+                <input type="number" class="containerD" name="chemistry" id="sub1" value="">
+            </li>
+            <li>
+                <label for="physics" class="containerC">physics:</label>
+                <input type="number" class="containerD" name="physics" id="sub2" value="">
+            </li>
+            <li>
+                <label for="computer" class="containerC">computer:</label>
+                <input type="number" class="containerD" name="computer" id="sub3" value="">
+            </li>
+            <li>
+                <label for="csw" class="containerC">communication skill:</label>
+                <input type="number" class="containerD" name="csw" id="sub4" value="">
+            </li>
+            <li>
+                <label for="eg" class="containerC">engineering drawing:</label>
+                <input type="number" class="containerD" name="eg" id="sub5" value="">
+            </li>
+            <li>
+                <label for="maths" class="containerC">maths:</label>
+                <input type="number" class="containerD" name="maths" id="sub6" value="">
+            </li>
+        </ul>
+    </form>
+    <button onclick="myFunctiona()" class="button">FIND</button>
+<div id="display-a" class="display"></div>
+</div>
+<div class="containerB">
+    <h1>FOR 2nd sem</h1>
+    <h2>OVERVIEW</h2>
+    <div>
+        In this semester the subjects accounted are *engineering mechanics(with 4 credits),*physics(with 4 credits),*english(with 3 credits)
+      ,*ecology(with 2 credits),* workshop(with 3 credits),*maths (with 4 credits).
+    </div>
+    <h2>enter your marks(within 0 to 100)</h2>
+    <form >
+        <ul>
+            <li>
+                <label for="physics-II" class="containerC">physics:</label>
+                <input type="number" class="containerD" name="physics-II" id="subA" value="">
+            </li>
+            <li>
+                <label for="english" class="containerC">english:</label>
+                <input type="number" class="containerD" name="english" id="subB" value="">
+            </li>
+            <li>
+                <label for="mechanics" class="containerC">engineering mechanics:</label>
+                <input type="number" class="containerD" name="mechanics" id="subC" value="">
+            </li>
+            <li>
+                <label for="workshop" class="containerC">workshop:</label>
+                <input type="number" class="containerD" name="workshop" id="subD" value="">
+            </li>
+            <li>
+                <label for="ecology" class="containerC">ecology:</label>
+                <input type="number" class="containerD" name="ecology" id="subE" value="">
+            </li>
+            <li>
+                <label for="maths-II" class="containerC">maths:</label>
+                <input type="number" class="containerD" name="maths-II" id="subF" value="">
+            </li>
+        </ul>
+    </form>
+    <button onclick="myFunctionb()" class="button">FIND</button>
+<div id="display-b" class="display"></div>
+</div>
+</div>
+</body>
+<script src="cpi.js"></script>
+</html>

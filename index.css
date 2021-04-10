@@ -1,0 +1,28 @@
+@keyframes animate {
+    from{position: relative; top: 800px;}
+    to{position: relative; top: 370px}
+}
+body{
+    background-image: url(Images/back.jpeg);
+}
+#heavy{
+    color: aliceblue;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 2cm;
+    position: relative;
+    left: 480px;
+    text-shadow: 1mm 1mm 1mm black;
+    animation-name: animate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}#text{
+    color: aliceblue;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 0.8cm;
+    position: relative;
+    left: 480px;
+    text-shadow: 1mm 1mm 1mm black;
+    animation-name: animate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
