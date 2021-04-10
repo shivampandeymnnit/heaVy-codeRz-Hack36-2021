@@ -25,7 +25,7 @@ Team Name: OP Squad
 
 * [Swapnil Nayak](https://github.com/swapnilnyk10)
 * [Shouvik Khanra](https://github.com/Shouvik11-b)
-* [Nitin Shukla](hhttps://github.com/nitin1207)
+* [Nitin Shukla](https://github.com/nitin1207)
 * [Piyush Kashyap](https://github.com/Piyush2208)
 
 
