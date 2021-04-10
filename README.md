@@ -21,7 +21,7 @@
 
 ## Contributors:
 
-Team Name: OP Squad
+Team Name: heaVy codeRz
 
 * [Swapnil Nayak](https://github.com/swapnilnyk10)
 * [Shouvik Khanra](https://github.com/Shouvik11-b)
