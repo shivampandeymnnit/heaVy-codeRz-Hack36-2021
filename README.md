@@ -24,7 +24,6 @@
 Team Name: heaVy codeRz
 
 * [Swapnil Nayak](https://github.com/swapnilnyk10)
-*[Shivam Pandey](https://github.com/shivampandeymnnit)
 * [Shivam Pandey](https://github.com/shivampandeymnnit)
 * [Nitin Shukla](https://github.com/nitin1207)
 
